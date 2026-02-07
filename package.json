@@ -1,0 +1,27 @@
+{
+  "name": "lambdamath",
+  "version": "1.0.0",
+  "description": "A modular JavaScript library for functional programming, async utilities, geometry, and calculus helpers",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"No tests yet\"",
+    "build": "echo \"Pure JS library, no build step required\""
+  },
+  "keywords": [
+    "javascript",
+    "functional-programming",
+    "fp",
+    "async",
+    "geometry",
+    "calculus",
+    "math",
+    "utilities",
+    "helpers"
+  ],
+  "author": "Kartik Subramaniam",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
