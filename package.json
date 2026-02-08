@@ -1,5 +1,5 @@
 {
-  "name": "lambdamath",
+  "name": "calqulate",
   "version": "0.1.0",
   "description": "A modular JS library for FP, async, geometry, and calculus helpers",
   "main": "index.js",

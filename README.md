@@ -1,4 +1,4 @@
-# LambdaMath
+# calqulate
 
 A modular JavaScript library providing **functional programming helpers**, **async utilities**, **geometry functions**, and **calculus helpers**. Written in plain JavaScript with **TypeScript type definitions** for autocomplete and type checking.
 
@@ -7,10 +7,10 @@ A modular JavaScript library providing **functional programming helpers**, **asy
 ## **Installation**
 
 ```bash
-npm install lambdamath
+npm install calqulate
 or with Yarn:
 
-yarn add lambdamath
+yarn add calqulate
 Importing
 // CommonJS
 const {
@@ -23,7 +23,7 @@ const {
   polygonArea,
   derivative,
   integrate
-} = require('lambdamath');
+} = require('calqulate');
 
 // ES Modules
 import {
@@ -36,7 +36,7 @@ import {
   polygonArea,
   derivative,
   integrate
-} from 'lambdamath';
+} from 'calqulate';
 Functional Programming Helpers
 curry(fn)
 Transforms a function into a curried version.
@@ -94,7 +94,7 @@ console.log(integrate(f, 0, 2)); // ≈ 2.6667
 TypeScript Support
 All functions have TypeScript definitions. Example:
 
-import { distance, Point } from 'lambdamath';
+import { distance, Point } from 'calqulate';
 
 const a: Point = { x: 0, y: 0 };
 const b: Point = { x: 1, y: 1 };
